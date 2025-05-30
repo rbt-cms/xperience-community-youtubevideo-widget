@@ -36,7 +36,7 @@ namespace XperienceCommunity.YouTubeWidget.Components.Widgets.YouTubeVideo
             ContentAfter = properties.ContentAfter,
             VideoParameters = GetYouTubeVideo(properties.IsShowRelatedVideos, properties.IsAutoPlay)
         }));
-        private static string GetYouTubeVideo(bool relVideos, bool autoPlay)
+        public static string GetYouTubeVideo(bool relVideos, bool autoPlay)
         {
             var stringBuilder = new StringBuilder();
             stringBuilder.Append(autoPlay ? "&autoplay=1&mute=1" : string.Empty);

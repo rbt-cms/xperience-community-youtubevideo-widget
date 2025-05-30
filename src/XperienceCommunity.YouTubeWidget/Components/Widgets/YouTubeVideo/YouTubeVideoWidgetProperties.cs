@@ -1,4 +1,5 @@
-﻿using Kentico.PageBuilder.Web.Mvc;
+﻿
+using Kentico.PageBuilder.Web.Mvc;
 using Kentico.Xperience.Admin.Base.FormAnnotations;
 
 namespace XperienceCommunity.YouTubeWidget.Components.Widgets.YouTubeVideo
@@ -12,7 +13,7 @@ namespace XperienceCommunity.YouTubeWidget.Components.Widgets.YouTubeVideo
         public bool IsVisible { get; set; }
         [TextInputComponent(Label = "Video Title", Order = 1, Tooltip = "Enter desired video title")]
         [RequiredValidationRule(ErrorMessage = "Please Enter Video Title,Required", FieldName = nameof(VideoTitle))]
-        public required string VideoTitle { get; set; }
+        public string? VideoTitle { get; set; }
 
         [TextInputComponent(Label = "Video URL", Order = 2, Tooltip = "Enter desired YouTube video URL")]
         [RequiredValidationRule(ErrorMessage = "Please Enter Video Url,Required", FieldName = nameof(VideoURL))]
