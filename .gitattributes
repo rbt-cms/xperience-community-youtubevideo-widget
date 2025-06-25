@@ -1,8 +1,12 @@
 # Auto detect text files and perform LF normalization
 *                   text=auto
 
-*.cs                text diff=csharp
-*.cshtml            text diff=html
+*.cs                text eol=crlf diff=csharp
+*.cshtml            text eol=crlf diff=html
+*.ts                text eol=crlf
+*.xml               text eol=crlf
+*.sh                text eol=crlf
+*.md                text eol=crlf
 
 *.sln               text eol=crlf
 *.csproj            text eol=crlf
@@ -18,6 +22,7 @@
 *.yaml              text eol=crlf
 *.yml               text eol=crlf
 
+*.cs      text eol=crlf
 *.css               text eol=crlf diff=css
 *.html              text eol=crlf diff=html
 *.js                text eol=crlf
