@@ -39,9 +39,9 @@ namespace XperienceCommunity.YouTubeWidget.Components.Widgets.YouTubeVideo
         public static string GetYouTubeVideo(bool relVideos, bool autoPlay)
         {
             var stringBuilder = new StringBuilder();
-            stringBuilder.Append(autoPlay ? "&autoplay=1&mute=1" : string.Empty);
-            stringBuilder.Append((!relVideos) ? "&rel=0" : "&rel=1");
-            stringBuilder.Append("&enablejsapi=1&version=3");
+            _ = stringBuilder.Append(autoPlay ? "&autoplay=1&mute=1" : string.Empty);
+            _ = stringBuilder.Append((!relVideos) ? "&rel=0" : "&rel=1");
+            _ = stringBuilder.Append("&enablejsapi=1&version=3");
             return stringBuilder.ToString();
         }
     }

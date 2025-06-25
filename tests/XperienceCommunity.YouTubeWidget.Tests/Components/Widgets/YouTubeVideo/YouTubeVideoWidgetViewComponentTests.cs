@@ -1,8 +1,6 @@
 using Microsoft.AspNetCore.Mvc.ViewComponents;
 
-using XperienceCommunity.YouTubeWidget.Components.Widgets.YouTubeVideo;
-
-namespace XperienceCommunity.YouTubeWidget.Tests.Components.Widgets.YouTubeVideo
+namespace XperienceCommunity.YouTubeWidget.Components.Widgets.YouTubeVideo
 {
     [TestFixture]
     public class YouTubeVideoWidgetViewComponentTests
