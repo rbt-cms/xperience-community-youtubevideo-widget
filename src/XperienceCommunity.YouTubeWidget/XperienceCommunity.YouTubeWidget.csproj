@@ -3,9 +3,18 @@
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
+    <AddRazorSupportForMvc>true</AddRazorSupportForMvc>
+    <Title>XperienceCommunity.YoutubeWidget</Title>
+    <Version>$(VersionPrefix)</Version>
+    <Description>Widget Enables to insert the video from specified embed YouTube URL location</Description>
+    <Company>RBT</Company>
+    <PackageProjectUrl>https://github.com/rbt-cms/xperience-community-youtubevideo-widget</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/rbt-cms/xperience-community-youtubevideo-widget</RepositoryUrl>
+    <PackageTags>xperience;kentico;aspnetcore;YouTube;XBYK</PackageTags>
+    <PackageReleaseNotes>https://github.com/rbt-cms/xperience-community-youtubevideo-widget/releases</PackageReleaseNotes>
  
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Kentico.Xperience.WebApp"  />
+    <PackageReference Include="Kentico.Xperience.WebApp" />
   </ItemGroup>
 </Project>

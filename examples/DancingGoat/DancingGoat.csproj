@@ -22,11 +22,12 @@
     <DefineConstants>$(DefineConstants);SEPARATED_ADMIN</DefineConstants>
   </PropertyGroup>
   <ItemGroup>
+    <PackageReference Include="kentico.xperience.admin" Condition="'$(SeparatedAdmin)' == 'false'" />
+    <PackageReference Include="kentico.xperience.azurestorage" />
+    <PackageReference Include="kentico.xperience.imageprocessing" />
+    <PackageReference Include="kentico.xperience.webapp" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="kentico.xperience.admin"   Condition="'$(SeparatedAdmin)' == 'false'" />
-    <PackageReference Include="kentico.xperience.azurestorage"   />
-    <PackageReference Include="kentico.xperience.imageprocessing"   />
-    <PackageReference Include="kentico.xperience.webapp"   />
+    <ProjectReference Include="..\..\src\XperienceCommunity.YouTubeWidget\XperienceCommunity.YouTubeWidget.csproj" />
   </ItemGroup>
 </Project>

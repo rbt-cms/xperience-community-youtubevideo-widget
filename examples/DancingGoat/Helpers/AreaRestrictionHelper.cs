@@ -16,7 +16,7 @@ namespace DancingGoat.Helpers
         /// </summary>
         public static string[] GetLandingPageRestrictions()
         {
-            var allowedScopes = new[] { "Kentico.", "DancingGoat.General.", "DancingGoat.LandingPage." };
+            var allowedScopes = new[] { "Kentico.", "XperienceCommunity.", "DancingGoat.General.", "DancingGoat.LandingPage." };
 
             return GetWidgetsIdentifiers()
                 .Where(id => allowedScopes.Any(scope => id.StartsWith(scope, StringComparison.OrdinalIgnoreCase)))

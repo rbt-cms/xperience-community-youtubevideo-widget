@@ -13,7 +13,7 @@ using XperienceCommunity.YouTubeWidget.Components.Widgets.YouTubeVideo;
     RegisterWidget(
         identifier: YouTubeVideoWidgetViewComponent.IDENTIFIER,
         viewComponentType: typeof(YouTubeVideoWidgetViewComponent),
-        name: "YouTubeVideo Widget",
+        name: "YouTube Video",
         propertiesType: typeof(YouTubeVideoWidgetProperties),
         Description = "Widget Enables to insert the video from specified YouTube URL location.",
         IconClass = "icon-brand-youtube")]

@@ -926,6 +926,12 @@
         "dependencies": {
           "System.IO.Hashing": "7.0.0"
         }
+      },
+      "xperiencecommunity.youtubewidget": {
+        "type": "Project",
+        "dependencies": {
+          "Kentico.Xperience.WebApp": "[29.6.0, )"
+        }
       }
     }
   }

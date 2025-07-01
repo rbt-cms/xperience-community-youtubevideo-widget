@@ -1,7 +1,7 @@
 <Project>
 
   <PropertyGroup>
-    <Company>Kentico Software</Company>
+    <Company>RBT</Company>
     <Authors>$(Company)</Authors>
     <Copyright>Copyright © $(Company) $([System.DateTime]::Now.Year)</Copyright>
     <Trademark>$(Company)™</Trademark>
