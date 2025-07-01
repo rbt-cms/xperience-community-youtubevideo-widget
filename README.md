@@ -1,6 +1,6 @@
 # Xperience Community Youtube Widget
 
-[![CI: Build and Test](https://github.com/rbt-cms/xperience-community-youtubevideo-widget/actions/workflows/ci.yml/badge.svg)](https://github.com/rbt-cms/xperience-community-youtubevideo-widget/actions/workflows/ci.yml)
+[![CI: Build and Test](https://github.com/rbt-cms/xperience-community-youtubevideo-widget/actions/workflows/ci.yml/badge.svg)](https://github.com/rbt-cms/xperience-community-youtubevideo-widget/actions/workflows/ci.yml) [![NuGet Package](https://img.shields.io/nuget/v/XperienceCommunity.YouTubeWidget.svg)](https://www.nuget.org/packages/XperienceCommunity.YouTubeWidget)
 
 # Description
 Widget Enables to insert the video from specified embed YouTube URL location
@@ -44,6 +44,27 @@ Thisis a widget which allows you to add a YouTubeVideo to your page with certain
 - Content Before: HTML content placed before the widget content. Can be used to display a header or add encapsulating code such as div tag
 - Content After: HTML content placed after the widget content. Can be used to display a header or add encapsulating code such as div tag
 *Required fields
+
+### Screenshots
+#1. 
+![Widget screen1](https://github.com/rbt-cms/xperience-community-youtubevideo-widget/blob/main/images/1.png)
+
+#2. 
+![Widget Screen2](https://github.com/rbt-cms/xperience-community-youtubevideo-widget/blob/main/images/2.png)
+
+#3. 
+![Widget Screen3](https://github.com/rbt-cms/xperience-community-youtubevideo-widget/blob/main/images/3.png)
+
+#4.
+![Widgte Screen4](https://github.com/rbt-cms/xperience-community-youtubevideo-widget/blob/main/images/4.png)
+
+## Use DancingGoat sample
+
+You can restore database with configured samples. View [DancingGoat Sample Database](https://github.com/rbt-cms/xperience-community-youtubevideo-widget/blob/main/db/xpDancingGoat_2960.bak).
+
+Dashboard User Name: Administrator
+
+Password: XbyK1234$
 
 # License
 
